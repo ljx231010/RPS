@@ -1,46 +1,42 @@
 # RPS
 
-**RPS** is a method where the goal is to recommend expressed host organism for a user-specified pathway and then recommend foreign enzymes for foreign reaction.
+**RPS** 是一种方法，其目标是为用户指定的途径推荐适合表达的宿主生物，然后为外源反应推荐外源酶。
+**RPS**包括四个主要步骤：
 
-**RPS** consists of four main steps:
+- **首先**,获得用户从网页上输入的路径和权重参数（可默认）。
+- **然后**,根据内源反应的比例、死胡同代谢物的数量和竞争内源反应三者的得分，计算 70 个候选宿主生物下的路径得分，然后生成排名靠前的候选宿主生物。
+- **接下来**,对于每个宿主生物， RPS 可显示每种宿主生物的途径信息，并确定每个反应是否为内源反应。
+- **最后**,推荐用于外源反应的潜在外源酶，推荐结果可分别查看三种方法下的计算结果，三种方法分别是系统发育距离、Km 值、系统发育距离和 Km 值的组合。
 
-- **First**,  obtain the pathway and weight parameter information input by the user from the web page.
-- **Second**, the scores of pathway under 70 candidate host organism are calculated based on the proportion of endogenous reactions, the number of dead end metabolites and score of competing endogenous reactions, and then generate top-ranked candidate host organism.
-- **Third**, for each host organism, RPS can display the reaction information of the pathway, the enzyme, and determines whether each reaction is an endogenous reaction.
-- **Finally**, recommend potential foreign enzymes for foreign reaction, provides three ways to do this: by phylogenetic distance, by Km value, or by combination of phylogenetic distance and Km value.
-
-# Software environment used
+# 使用的软件环境
 
 - Java: JDK1.8.0_352
-- &IDE: IDEA2020.3
-- Backend: SpringMVC5.1.9 Spring5.1.9 MyBatis3.5.2
-- Database: mysql8.0.22
-- Web Server: Tomcat 9
-- Build Tool: Maven
-- Other: Druid(database connection pool) JUnit Log4j FastJson
+- 开发工具: IDEA2020.3
+- 后端: SpringMVC5.1.9 Spring5.1.9 MyBatis3.5.2
+- 数据库: mysql8.0.22
+- 服务器: Tomcat 9
+- 生成工具: Maven
+- 其他: Druid(database connection pool)  JUnit  Log4j  FastJson
 
-# Dataset Preparation
+# 数据集准备
 
-#### Database data
+#### 数据库数据
 
-> Assume that in MySQL, user stores data in database ‘rea’, the user name is “root”, password is “123456”,  the followings are the command and operation for adding data to MySQL Database.
+> 假设在MySQL中，用户将数据存储在数据库“rea”中，用户名为“root”，密码为“123456”，以下是向MySQL数据库添加数据的命令和操作。
 
-1. Download `fre.sql`.
-2. Enter mysql with command line `mysql -u -root -p` and input the password "123456"(或自定义的用户及密码)
-3. Create database "fre" with command line `create database fre;`
-4. Enter database "fre" with command line `use fre;`
-5. Import the data "fre.sql" with command line `source D:\\fre.sql;`
+1. 下载 `fre.sql`.
+2. 进入命令行，使用命令行`mysql -u -root -p`并输入密码“123456”(或自定义的用户及密码)
+3. 使用命令`create database fre;`创建`fre`数据库
+4. 使用命令`use fre;`进入`fre`数据库;
+5. 使用命令行`source D:/fre.sql;`导入数据
 
-#### Local files
+#### 本地文件
 
-1.Download the `data.rar` file and unzip it to the d:/data directory
+1.下载`data.rar`文件并将其解压缩到`d:/data`目录
 
-# Use
+# 使用
 
-1.Install tomcat.
-
-2.Import the project into IDEA or Eclipse, configure tomcat, and use it.
-
-​	Or directly deploy to tomcat for use.
-
-3.The specific functions can be read in the `Help` section of the website after successful deployment
+1.安装tomcat。
+2.将项目导入IDEA或Eclipse，配置tomcat并使用它。
+或者直接部署到tomcat中使用。
+3.部署成功后，可在网站的`帮助`部分阅读具体功能
