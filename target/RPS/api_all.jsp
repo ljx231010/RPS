@@ -4,9 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <!-- <meta charset="UTF-8"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/semantic.min.css">
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/images/favicon.ico"/>
-    <link rel="stylesheet" href="./static/css/me.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/me.css">
     <style>
         table td {
             font-size: 15px;

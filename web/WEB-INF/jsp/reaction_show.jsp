@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/semantic.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/me.css">
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/images/favicon.ico"/>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/notiflix-3.2.5.min.css">
     <script src="${pageContext.request.contextPath}/static/js/notiflix-3.2.5.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/vis-network.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/vis-data@latest/peer/umd/vis-data.min.js"></script>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/static/js/vis-data.min.js"></script>
     <style>
         .msg {
             display: inline-block;

@@ -50,7 +50,7 @@ public class PathController {
         System.out.println(subAndProduct);
         System.out.println(compete);
         List<KeyValue> keyValues = speciesNetworkService.calculateScoreOfSpecies(path, inOut, subAndProduct, compete);
-        String message = "There is a problem between the compound and the reaction,please return for inspection.";
+        String message = "化合物和反应之间存在问题，请返回进行检查。";
         if (keyValues == null)
             model.addAttribute("message", message);
         model.addAttribute("keyValues", keyValues);

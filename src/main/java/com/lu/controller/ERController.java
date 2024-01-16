@@ -50,6 +50,7 @@ public class ERController {
         model.addAttribute("speciesReactions", speciesReactions);
 
         List<Message> deadEndMetabolites = speciesNetworkService.getDeadEndMetaboliteInOneSpecies(path, speciesId);
+
         StringBuilder s = new StringBuilder();
         for (Message message : deadEndMetabolites) {
             s.append(message.toString()).append("-");

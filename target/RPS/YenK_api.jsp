@@ -5,9 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <!-- <meta charset="UTF-8"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/semantic.min.css">
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/static/images/favicon.ico"/>
-    <link rel="stylesheet" href="./static/css/me.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/static/css/me.css">
     <title>Yen-K</title>
     <style type="text/css">
         .m-text-font {
@@ -200,7 +200,7 @@
         start_info = document.getElementById('start_info');
         if (!patternCompound.test(start)) {
             start_info.setAttribute("style", 'color:red');
-            start_info.innerHTML = "The substrate should satisfy the standard KEGG ID, for example, C00011 in KEGG represents Carbon dioxide.See more detail in https://www.kegg.jp/";
+            start_info.innerHTML = "起始化合物应满足标准KEGG ID，例如，KEGG中的C00011表示二氧化碳.更多细节请见https://www.kegg.jp/";
             return false;
         } else {
             start_info.innerHTML = "";
@@ -214,7 +214,7 @@
         end_info = document.getElementById('end_info');
         if (!patternCompound.test(end)) {
             end_info.setAttribute("style", 'color:red');
-            end_info.innerHTML = "The target should satisfy the standard KEGG ID, for example, C00011 in KEGG represents Carbon dioxide.See more detail in https://www.kegg.jp/";
+            end_info.innerHTML = "目标化合物应满足标准KEGG ID，例如，KEGG中的C00011表示二氧化碳.更多细节请见https://www.kegg.jp/";
             return false;
         } else {
             end_info.innerHTML = "";
@@ -226,8 +226,8 @@
         var k = document.getElementById('k').value;
         var kInfo = document.getElementById('k_info');
         if (isNaN(parseInt(k)) || (parseInt(k) !== parseFloat(k))) {
-            kInfo.className = 'msg wrong';
-            kInfo.innerHTML = 'Please enter the value of k as an integer!';
+            kInfo.className = '错误';
+            kInfo.innerHTML = '请将k的值输入为整数！';
             return false;
         } else {
             if (kInfo.className === 'msg wrong') {
