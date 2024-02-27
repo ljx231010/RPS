@@ -72,7 +72,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/js" />
+    <property name="last_opened_file_path" value="E:/jdk1.8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,15 +104,13 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,7 +423,10 @@
       <workItem from="1701574907816" duration="681000" />
       <workItem from="1702016037089" duration="1269000" />
       <workItem from="1705297889874" duration="10078000" />
-      <workItem from="1705308238205" duration="12349000" />
+      <workItem from="1705308238205" duration="14813000" />
+      <workItem from="1705483695738" duration="2547000" />
+      <workItem from="1709026810062" duration="85000" />
+      <workItem from="1709026921413" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1696950998309</created>

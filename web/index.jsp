@@ -99,7 +99,7 @@
                     <label><b>路径中内源反应占比权重:&nbsp;&nbsp;&nbsp;</b></label>
                     <input type="number" name="inOut" value="0.4" style="width: 80px;" id="inOut" min="0.0" max=1
                            step="0.1"/><br/><br/><br>
-                    <label><b>死胡同代谢物权重:&nbsp;&nbsp;&nbsp;</b></label>
+                    <label><b>途径末端代谢物权重:&nbsp;&nbsp;&nbsp;</b></label>
                     <input type="number" name="subAndProduct" value="0.2" style="width: 80px;" id="subAndProduct"
                            min="0.0" max=1
                            step="0.1"/><br/><br/><br>
@@ -201,7 +201,7 @@
         <li><span style="font-size: 20px;">路径中内源性反应占比权重&nbsp;:&nbsp;</span><span
                 style="font-weight: bold;" id="yourInOut"></span></li>
         <br>
-        <li><span style="font-size: 20px;">死胡同代谢物权重&nbsp;:&nbsp;</span><span
+        <li><span style="font-size: 20px;">途径末端代谢物权重&nbsp;:&nbsp;</span><span
                 style="font-weight: bold;" id="yourSubAndProduct"></span>
         </li>
         <br>
