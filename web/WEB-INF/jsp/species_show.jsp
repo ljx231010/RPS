@@ -43,7 +43,7 @@
             <th>宿主生物 <span title="推荐的候选宿主生物" style="cursor: help;" data-toggle="tooltip"
                                     data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-            <th>成绩 <span title="候选宿主生物成绩" style="cursor: help;" data-toggle="tooltip"
+            <th>得分 <span title="候选宿主生物得分" style="cursor: help;" data-toggle="tooltip"
                             data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
             <th>查看细节 <span title="单击以查看路径详细信息" style="cursor: help;" data-toggle="tooltip"

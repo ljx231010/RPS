@@ -45,7 +45,7 @@
                 <th>排名 <span title="外源酶结果排名" style="cursor: help;" data-toggle="tooltip"
                                data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>酶 <span title="酶的EC编号" style="cursor: help;"
+                <th>外源酶 <span title="酶的EC编号" style="cursor: help;"
                                            data-toggle="tooltip"
                                            data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
@@ -89,21 +89,20 @@
             <thead>
             <tr>
                 <th>排名 <span title="外源酶结果排名" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
-			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>酶 <span title="酶的EC编号" style="cursor: help;"
-                            data-toggle="tooltip"
-                            data-placement="right">
-			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>来源生物 <span title="外源酶的来源生物" style="cursor: help;"
-                               data-toggle="tooltip"
                                data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>距离 <span title="系统发育距离" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
+                <th>外源酶 <span title="酶的EC编号" style="cursor: help;"
+                                           data-toggle="tooltip"
+                                           data-placement="right">
+			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
+                <th>来源生物 <span title="外源酶的来源生物" style="cursor: help;"
+                                         data-toggle="tooltip"
+                                         data-placement="right">
+			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
+                <th>KM<span title="KM值" style="cursor: help;" data-toggle="tooltip" data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
                 <th>查看 <span title="相关链接" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
+                               data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
             </tr>
             </thead>
@@ -134,22 +133,20 @@
         <table class="ui celled table" id="table3" style="text-align: center;">
             <thead>
             <tr>
-                <th>排名 <span title="外源酶结果排名" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
-			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>酶 <span title="酶的EC编号" style="cursor: help;"
-                            data-toggle="tooltip"
-                            data-placement="right">
-			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>来源生物 <span title="外源酶的来源生物" style="cursor: help;"
-                               data-toggle="tooltip"
+                <th>排名 <span title="外源酶排名" style="cursor: help;" data-toggle="tooltip"
                                data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>距离 <span title="系统发育距离" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
+                <th>外源酶 <span title="酶的EC编号" style="cursor: help;"
+                                           data-toggle="tooltip"
+                                           data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
-                <th>查看 <span title="相关链接" style="cursor: help;" data-toggle="tooltip"
-                             data-placement="right">
+                <th>来源生物 <span title="外源酶的来源生物" style="cursor: help;"
+                                         data-toggle="tooltip"
+                                         data-placement="right">
+			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
+                <th>得分 <span title="外源酶得分" style="cursor: help;" data-toggle="tooltip" data-placement="right">
+			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
+                <th>查看 <span title="相关链接" style="cursor: help;" data-toggle="tooltip" data-placement="right">
 			<sup style="color:black;"><i class="question circle outline icon" aria-hidden="true"></i></sup></span></th>
             </tr>
             </thead>
